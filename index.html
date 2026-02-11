@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefan Vujakovic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <div class="header">
+        <img src="photos/fiverrpfp.png" alt="Profile photo" class="pfp">
+            <button id="menu-button">MENU</button>
+                <ul>
+                    <li><a href="#about" class="link">About Me</a></li>
+                    <li><a href="#projects" class="link">My Projects</a></li>
+                    <li><a href="#contact" class="link">Contact Me</a></li>
+                </ul>
+    </div>
+
+    <!-- About Me Section -->
+    <section class="about_me" id="about">
+        <h1 class="about">About Me</h1>
+        <img src="photos/fiverrpfp.png" alt="Profile photo" class="about_photo">
+        <p class="about_text">
+            Hello, I am Stefan (Stefan Vujakk on Fiverr). I'm a beginner programmer learning web development and building small projects to improve my skills.
+        </p>
+        <p class="about_text">My current skills are: HTML, CSS, and starting to learn JavaScript.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects-section">
+        <h1 class="project_header">Projects</h1>
+        <div class="projects-wrapper">
+            <button id="left-btn"><i class="arrow"><</i></button>
+            <div class="projects">
+                <div class="project">
+                    <p class="projects_text">Small cafe landing page</p>
+                    <div class="live-code">
+                        <img src="photos/first-project.png" alt="">
+                        <a href="https://landingpageprojectstefanvujakk.netlify.app/" class="code-live" target="_blank">Live</a>
+                        <a href="https://github.com/stefanvujakk/landing-page-for-a-cafe" class="code-live" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <p>placeholder until I make a new project</p>
+                </div>
+            </div>
+            <button id="right-btn"><i class="arrow">></i></button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1 class="contacts">Contact Me</h1>
+        <p>
+            <a href="https://www.fiverr.com/stefan_vujakk" class="fiverr_link" target="_blank">
+                You can find me on Fiverr.
+            </a>
+        </p>
+        <p>
+            <a class="contact_link" href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanvujakk.business@outlook.com" target="_blank">
+                Feel free to ask me anything about my projects via email.
+            </a>
+        </p>
+        <p>
+            <a class="contact_link" href="https://github.com/stefanvujakk" target="_blank">
+                I will also be sharing code for my projects on my GitHub.
+            </a>
+        </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
