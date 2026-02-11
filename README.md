@@ -1,5 +1,5 @@
 # Stefan Vujakk Portfolio
-A personal portfolio website to showcase my skills in web development. Built using HTML, CSS
+A personal portfolio website to showcase my skills in web development.
 ## Features
 - About Me section with profile information
 - Contact section with links to Fiverr, email, and GitHub
@@ -7,4 +7,5 @@ A personal portfolio website to showcase my skills in web development. Built usi
 ## Technologies used:
 - HTML5
 - CSS3
+- JavaScript
 
